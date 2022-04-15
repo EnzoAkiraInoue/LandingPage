@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+.tela1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #00235C;
+    background-color: #ffffff;
+}
+
+.tela1 article {
+    width: 630px;
+}
+
+.tela1 p {
+    width: 561px;
+    height: 160px;
+}
+
+.tela2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.tela2 article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.tela2 p {
+    width: 526px;
+    height: 120px;
+}
+
+.tela3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #00235C;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .tela1 article {
+        width: 498px;
+        text-align: center;
+    }
+
+    .tela1 h1 {
+        width: 483px;
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .tela1 p {
+        width: 483px;
+        height: 218px;
+    }
+
+    .tela2 {
+        flex-direction: column-reverse;
+    }
+
+    .tela2 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .tela2 h1 {
+        height: 180px;
+    }
+
+    .tela2 p {
+        margin: 0;
+        height: 202px;
+    }
+
+}
