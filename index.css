@@ -24,6 +24,78 @@ p {
     line-height: 40px;
 }
 
+.logo-square h1 {
+position: relative;
+ width: 22px;
+ height: 22px;
+ left: 9.51px;
+ top: -9.51px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 22.5524px;
+ line-height: 18px;
+
+ letter-spacing: 0.02em;
+
+ color: #00235C;
+}
+
+.logo-square h2{
+
+ position: absolute;
+ width: 100px;
+ height: 18px;
+ left: 45.46px;
+ top: 0px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 12.6857px;
+ line-height: 18px;
+
+
+ letter-spacing: 0.02em;
+
+ color: #FFFFFF;
+}
+
+.tela0 {
+    position: relative;
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.tela0 header{
+    position: static;
+    width: 100%;
+    height: 37px;    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+position: absolute;
+width: 135.92px;
+height: 37px;
+top: 42px;
+left: 100px;
+background: #00235C;
+}
+
+.logo-square{
+ position: absolute;
+ width: 35.92px;
+ height: 37px;
+ left: 0px;
+ top: 0px;
+    
+ background: #FFFFFF;
+}
+
 
 .tela1 {
     display: flex;
