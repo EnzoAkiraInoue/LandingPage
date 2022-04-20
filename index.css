@@ -509,10 +509,159 @@ position: relative;
 }
 
 .tela3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    position: relative;
     color: #00235C;
     background-color: #ffffff;
+}
+
+.tela3 h1{
+ position: absolute;
+ width: 185px;
+ height: 50px;
+ left: 101px;
+ top: 60px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 50px;
+ color: #116CFF;
+}
+
+.container2{
+ position: absolute;
+ width: 1166px;
+ height: 402px;
+ left: 100px;
+ top: 162px;
+}
+
+.B1{
+ position: absolute;
+ width: 549px;
+ height: 189px;
+ left: 100px;
+ top: 162px;
+}
+
+.B1foto{
+ position: absolute;
+ width: 65.45px;
+ height: 64.1px;
+ left: -59px;
+ top: 23px;
+ background: url(.png);
+ transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.B1TEXTCONTAINER{
+ position: absolute;
+ width: 460.66px;
+ height: 187px;
+ left: 0px;
+ top: 0px;    
+}
+
+.seta1{
+ position: absolute;
+ width: 30px;
+ height: 30px;
+ left: 40.98px;
+ top: 36px;
+
+ background: #E7F0FF;
+ transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
+}
+
+.B1text{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 24px;
+
+ position: absolute;
+ width: 440px;
+ height: 187px;
+ left: 49.66px;
+ top: 0px;
+
+ background: #E7F0FF;
+ border-radius: 20px;
+}
+
+.B1text h1{
+ position: static;
+ width: 234px;
+ height: 25px;
+ left: 24px;
+ top: 24px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 21px;
+ line-height: 25px;
+ letter-spacing: 0.015em;
+
+ color: #00235C;
+
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 8px 0px;
+}
+
+.B1Stars{
+ position: static;
+ width: 120px;
+ height: 20px;
+ left: 144px;
+ top: 57px;
+
+ flex: none;
+ flex-grow: 0;
+}
+
+.B1text h2{
+ font-family: Inter;
+ font-size: 21px;
+ font-weight: 400;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: left;
+}
+
+.B1text span{
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 39px;
+
+ color: #FF463A;
+}
+
+.B2{
+ position: absolute;
+ width: 543px;
+ height: 189px;
+ left: 723px;
+ top: 162px;
+}
+
+.B3{
+ position: absolute;
+ width: 543px;
+ height: 193px;
+ left: 100px;
+ top: 371px;
+}
+
+.B4{
+ position: absolute;
+ width: 543px;
+ height: 189px;
+ left: 723px;
+ top: 371px;
 }
