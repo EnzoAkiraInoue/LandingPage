@@ -647,7 +647,111 @@ position: relative;
  width: 543px;
  height: 189px;
  left: 723px;
- top: 162px;
+ top: 184px;
+}
+
+.B2TEXTCONTAINER{
+ position: absolute;
+ width: 460.32px;
+ height: 189px;
+ left: 721px;
+ top: 161px;
+}
+
+.seta2{
+ position: absolute;
+ width: 30px;
+ height: 30px;
+ left: 496.3399999999999px;
+ top: 32px;
+
+ background: #FFE6E5;
+ transform: rotate(-30deg);
+}
+
+.B2foto{
+ position: absolute;
+ width: 80px;
+ height: 80px;
+ left: 1259px;
+ top: 174px;
+ transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.B2text{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 24px;
+
+ position: absolute;
+ width: 440px;
+ height: 189px;
+ left: 28px;
+ top: 0px;
+
+ background: #FFE6E5;
+ border-radius: 20px;
+}
+
+.B2text h1{
+ position: static;
+ width: 318px;
+ height: 25px;
+ left: 0px;
+ top: 0px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 21px;
+ line-height: 25px;
+ letter-spacing: 0.015em;
+
+ color: #00235C;
+
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 10px 0px;
+}
+
+.B2Stars{
+ position: static;
+ width: 120px;
+ height: 20px;
+ left: 120px;
+ top: 35px;
+
+ flex: none;
+ flex-grow: 0;
+}
+
+.B2text h2{
+ font-family: Inter;
+ font-size: 21px;
+ font-weight: 400;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: left;
+
+}
+
+.B2text span{
+ position: static;
+ width: 392px;
+ height: 78px;
+ left: 24px;
+ top: 87px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 39px;
+ letter-spacing: 0.015em;
+
+ color: #FF463A;
 }
 
 .B3{
