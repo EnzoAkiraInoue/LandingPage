@@ -544,8 +544,19 @@ p {
     position: absolute;
     width: 1166px;
     height: 402px;
-    left: 263px;
+    left: 373px;
     top: 78px;
+}
+
+.imgtela2 {
+    position: absolute;
+    width: 1051px;
+    height: 667.53px;
+    left: 333px;
+    top: -77px;
+
+    background: url(kingdom-1263.png);
+    opacity: 100%;
 }
 
 .B1 {
